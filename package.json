@@ -1,0 +1,26 @@
+{
+  "name": "proj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vlad",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tw9ntyseven/praktika.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tw9ntyseven/praktika/issues"
+  },
+  "homepage": "https://github.com/tw9ntyseven/praktika#readme",
+  "description": ""
+}
