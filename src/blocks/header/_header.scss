@@ -1,0 +1,16 @@
+@import "links/links";
+@import "logo/logo";
+@import "nav/nav";
+@import "phone/phone";
+
+
+.header {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  max-width: 1164px;
+  margin: 35px auto;
+}

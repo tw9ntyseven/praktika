@@ -1,0 +1,26 @@
+.panel-item-3 {
+  display: flex;
+  justify-content: center;
+  width: 306px;
+  height: 99px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #9FA9A9;
+  text-align: center;
+  align-items: center;
+}
+
+.panel-item-3-a {
+  text-decoration: none;
+  color: #9FA9A9;
+}
+.panel-item-3-a:hover {
+  color: $green-color;
+  transition: color .1s linear;
+
+}
+.panel-item-3:hover {
+  background-color: #eee;
+  border-radius: 30px;
+  transition: background-color .1s linear;
+}
