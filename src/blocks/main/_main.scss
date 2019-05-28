@@ -1,9 +1,2 @@
-.main {
-	text-align: center;
-	@include col();
-	@include size-xs(12);
-
-	code {
-		margin: 0 5px;
-	}
-}
+@import "1-landing-page/1-land-page";
+@import "two-landing-page/two-land-page";
