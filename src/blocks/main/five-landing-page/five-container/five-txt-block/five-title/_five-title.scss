@@ -1,0 +1,13 @@
+.five-title {
+  font-size: 36px;
+  font-weight: 400;
+  color: $green-color;
+}
+.five-title::after {
+  margin-top: 19px;
+  display: block;
+  content: '';
+  width: 104px;
+  height: 3px;
+  background-color: #949C9C;
+}
