@@ -58,4 +58,63 @@
     right: -257px;
   }
 
+  /* Four-land-page */
+
+  //.twophone {
+  //  display: none;
+  //}
+  //.threephone {
+  //  display: none;
+  //}
+  //.twosubtitle {
+  //  display: none;
+  //}
+  //.threesubtitle {
+  //  display: none;
+  //}
+  .four-phone {
+    margin: 0;
+    padding: 0;
+  }
+  .mobile1 {
+    margin-top: 20px;
+    width: 248px;
+  }
+  .screen-copy1 {
+    margin-top: 20px;
+    width: 215px;
+    top: -468px;
+    right: 0px;
+  }
+  .mobile-subtitle {
+    position: relative;
+    top: -120px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+  }
+
+  /* Five-land-page */
+
+  .five-pictures {
+    display: none;
+  }
+  .five-txt-block {
+    text-align: left;
+    margin-left: 100px;
+    padding-top: 100px;
+    top: 0;
+    right: 0;
+  }
+  .five-title {
+    font-size: 48px;
+  }
+  .five-subtitle {
+    font-size: 48px;
+  }
+  .five-p {
+    font-size: 24px;
+  }
+
+
 }
