@@ -2,6 +2,13 @@
 @import "footer/footer";
 @import "main/main";
 
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
 @media (max-width: 1024px) {
 
   /*header*/
@@ -311,5 +318,11 @@
     margin: 0;
     top: 30px;
   }
-
+  .menu-list {
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .menu-list__item {
+    font-size: 12px;
+  }
 }

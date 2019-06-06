@@ -14,6 +14,7 @@
   margin: 35px auto;
 }
 .menu {
+  border-radius: 90px;
   position: fixed;
   left: 0;
   top: 0;
@@ -37,19 +38,28 @@
   height: 50%;
   flex-direction: column;
 }
-.menu-list a {
+.menu-list__item {
+  font-size: 24px;
   color: #333;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 900;
 }
+.menu-list__item:hover {
+  color: $green-color;
+}
 .menu-btn  {
-  box-shadow: 2px 1px 3px 1px black;
   position: absolute;
   right: -59px;
   top: 50px;
   width: 50px;
   height: 50px;
+  border: 2px solid black;
   border-radius: 50%;
-  background-color: white;
+  background-color: inherit;
+}
+.menu-btn:hover {
+  background-color: #949C9C;
+  transition: box-shadow .1s linear;
+  box-shadow: 2px 1px 3px 1px black;
 }
