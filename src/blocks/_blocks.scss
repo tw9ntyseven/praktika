@@ -2,10 +2,16 @@
 @import "footer/footer";
 @import "main/main";
 
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
 @media (max-width: 1024px) {
 
   /*header*/
-
   .nav {
     display: none;
   }
@@ -106,8 +112,11 @@
 }
 
 @media (max-width: 768px) {
-
-  /* Two-land-page */
+  .menu-btn {
+    width: 40px;
+    height: 40px;
+  }
+    /* Two-land-page */
 
   .tab-content {
     width: 500px;
@@ -179,7 +188,10 @@
 @media (max-width: 375px) {
 
   /* Header */
-
+  .menu-btn {
+    width: 30px;
+    height: 30px;
+  }
   .header {
     margin: 10px 0px;
 
@@ -306,5 +318,11 @@
     margin: 0;
     top: 30px;
   }
-
+  .menu-list {
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .menu-list__item {
+    font-size: 12px;
+  }
 }
