@@ -1,11 +1,11 @@
-@import "one-container";
-@import "h1";
-@import "p";
-@import "button";
-@import "pictures";
+@import "Intro-container";
+@import "Intro-title";
+@import "Intro-paragraph";
+@import "Intro-btn";
+@import "Intro-pictures";
 
 
-.one-land-page {
+.Intro {
   width: 100%;
   height: 730px;
   background: url("../../img/bg.png") center no-repeat;

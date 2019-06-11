@@ -1,0 +1,18 @@
+.About-btn {
+  text-transform: uppercase;
+  width: 240px;
+  height: 60px;
+  color: #8C9494;
+  background: inherit;
+  border-radius: 30px;
+  font-size: 21px;
+  font-weight: 900;
+  border: 3px solid #8C9494;
+  cursor: pointer;
+  margin-top: 50px;
+}
+.About-btn:hover {
+  color: #fff;
+  background-color: #8C9494;
+  transition: background-color .1s linear ;
+}

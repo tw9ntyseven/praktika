@@ -1,0 +1,25 @@
+.Features_tab-header__item1 {
+  display: flex;
+  margin-bottom: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 308px;
+  height: 96px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #9FA9A9;
+  cursor: pointer;
+}
+.Features_tab-header__item1:hover {
+  color: $green-color;
+  border-radius: 30px;
+  background-color: #eee;
+  transition: background-color .1s linear;
+}
+.Features_tab-header__item1.active {
+  background-color: #eee;
+  color: $green-color;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+}

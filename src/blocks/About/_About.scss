@@ -1,11 +1,11 @@
-@import "three-container";
-@import "three-title";
-@import "three-subtitle";
-@import "three-p";
-@import "three-button";
-@import "three-phone";
+@import "About-container";
+@import "About-title";
+@import "About-subtitle";
+@import "About-paragraph";
+@import "About-btn";
+@import "About-phone";
 
-.three-land-page {
+.About {
   height: 820px;
   margin-top: 100px;
   background-color: $light-green;

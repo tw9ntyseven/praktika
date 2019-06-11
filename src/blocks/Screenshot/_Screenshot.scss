@@ -1,15 +1,15 @@
-@import "five-pictures";
-@import "five-txt-block";
-@import "five-title";
-@import "five-subtitle";
-@import "five-p";
-@import "five-button";
+@import "Screenshot-pictures";
+@import "Screenshot_txt-block";
+@import "Screenshot-title";
+@import "Screenshot-subtitle";
+@import "Screenshot-paragraph";
 
 
 
 
-.five-land-page {
+.Screenshot {
   height: 800px;
   margin-top: 125px;
   background-color: $light-green;
+  overflow: hidden;
 }
