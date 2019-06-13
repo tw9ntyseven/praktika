@@ -1,6 +1,6 @@
 .Features_tab-header__item1 {
   display: flex;
-  margin-bottom: 5px;
+  margin-bottom: 17px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -11,15 +11,27 @@
   color: #9FA9A9;
   cursor: pointer;
 }
-.Features_tab-header__item1:hover {
-  color: $green-color;
-  border-radius: 30px;
-  background-color: #eee;
-  transition: background-color .1s linear;
-}
+// .Features_tab-header__item1:hover {
+//   color: $green-color;
+//   border-radius: 30px;
+//   background-color: #eee;
+//   transition: background-color .1s linear;
+// }
 .Features_tab-header__item1.active {
-  background-color: #eee;
   color: $green-color;
-  border-radius: 30px;
-  border: 1px solid #ccc;
+}
+.heart {
+  margin-right: 40px;
+}
+.min {
+  margin-right: 40px;
+}
+.list {
+  margin-right: 40px;
+}
+.ramka {
+  margin-right: 60px;
+}
+.umbrella {
+  margin-right: 40px;
 }
