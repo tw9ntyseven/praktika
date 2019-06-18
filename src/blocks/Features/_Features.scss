@@ -1,16 +1,14 @@
-@import "Features-container";
-@import "Features-title";
-@import "Features-paragraph";
-@import "Features_scroll-panel";
-@import "Features_tab-content";
-@import "Features_tab-header__item1";
-@import "Features_tab-content__item1";
-@import "Features_tab-header";
-
-
-
-
+@import "Features__container";
+@import "Features__title";
+@import "Features__paragraph";
+@import "Features__scroll-panel";
+@import "Features__tab-content";
+@import "Features__tab-header_item1";
+@import "Features__tab-content_item1";
+@import "Features__tab-header";
+@import "Features__line";
 
 .Features {
   width: 100%;
+  height: 843px;
 }

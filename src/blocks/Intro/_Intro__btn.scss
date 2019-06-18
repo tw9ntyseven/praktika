@@ -1,0 +1,18 @@
+.Intro__btn {
+  text-transform: uppercase;
+  width: 240px;
+  height: 60px;
+  color: #fff;
+  background: inherit;
+  border-radius: 30px;
+  font-size: 21px;
+  font-weight: 900;
+  border: 3px solid #fff;
+  cursor: pointer;
+  margin-top: 35px;
+}
+.Intro__btn:hover {
+  color: inherit;
+  background-color: #fff;
+  transition: background-color .1s linear ;
+}

@@ -1,0 +1,26 @@
+.Features__tab-content_item1 {
+  display: none;
+}
+.Features__tab-content_item1.active {
+  padding: 50px;
+  display: block;
+  font-size: 24px;
+  font-weight: 400;
+}
+.Features__tab-content_item1_h3 {
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 27px;
+}
+.Features__tab-content_item1_p {
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 400;
+  color: #AFB8B8;
+}
+.big {
+  position: relative;
+  right: -207px;
+  top: -5px;
+  margin-bottom: 67px;
+}

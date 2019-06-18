@@ -1,0 +1,32 @@
+.Features__tab-header_item1 {
+  display: flex;
+  margin-bottom: 17px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 328px;
+  height: 96px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #9FA9A9;
+  cursor: pointer;
+}
+.Features__tab-header_item1.active {
+   color: $green-color;
+   border-right: 11px solid $green-color;
+}
+.heart {
+  margin-right: 40px;
+}
+.min {
+  margin-right: 40px;
+}
+.list {
+  margin-right: 40px;
+}
+.ramka {
+  margin-right: 60px;
+}
+.umbrella {
+  margin-right: 40px;
+}

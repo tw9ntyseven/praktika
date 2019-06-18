@@ -1,15 +1,16 @@
-@import "Screenshot-pictures";
-@import "Screenshot_txt-block";
-@import "Screenshot-title";
-@import "Screenshot-subtitle";
-@import "Screenshot-paragraph";
+@import "Screenshot__pictures";
+@import "Screenshot__txt-block";
+@import "Screenshot__title";
+@import "Screenshot__subtitle";
+@import "Screenshot__paragraph";
+@import "../learn-more-btn/learn-more-btn";
 
 
 
 
 .Screenshot {
   height: 815px;
-  margin-top: 125px;
+  margin-top: 205px;
   background-color: $light-green;
   overflow: hidden;
 }
