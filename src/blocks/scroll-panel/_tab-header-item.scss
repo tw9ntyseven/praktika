@@ -1,4 +1,4 @@
-.Features__tab-header_item1 {
+.tab-header-item {
   display: flex;
   margin-bottom: 17px;
   margin-right: 15px;
@@ -16,7 +16,7 @@
   margin-top: 10px;
   margin-bottom: 35px;
 }
-.Features__tab-header_item1.active {
+.tab-header-item.active {
    color: $green-color;
    border-right: 11px solid $green-color;
 }
