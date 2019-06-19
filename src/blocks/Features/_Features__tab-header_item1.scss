@@ -1,32 +1,41 @@
 .Features__tab-header_item1 {
   display: flex;
   margin-bottom: 17px;
+  margin-right: 15px;
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 328px;
-  height: 96px;
+  width: 355px;
+  height: 80px;
   font-size: 20px;
   font-weight: 400;
   color: #9FA9A9;
   cursor: pointer;
+}
+.items {
+  margin-top: 10px;
+  margin-bottom: 35px;
 }
 .Features__tab-header_item1.active {
    color: $green-color;
    border-right: 11px solid $green-color;
 }
 .heart {
+  font-size: 47px;
   margin-right: 40px;
 }
 .min {
+  font-size: 47px;
   margin-right: 40px;
 }
 .list {
+  font-size: 47px;
   margin-right: 40px;
 }
 .ramka {
   margin-right: 60px;
 }
 .umbrella {
+  font-size: 47px;
   margin-right: 40px;
 }
