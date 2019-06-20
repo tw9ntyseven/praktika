@@ -1,6 +1,6 @@
-.tab-header-item {
+.scroll-panel__tab-header-item {
   display: flex;
-  margin-bottom: 17px;
+  margin-bottom: 33px;
   margin-right: 15px;
   justify-content: center;
   align-items: center;
@@ -12,11 +12,7 @@
   color: #9FA9A9;
   cursor: pointer;
 }
-.items {
-  margin-top: 10px;
-  margin-bottom: 35px;
-}
-.tab-header-item.active {
+.scroll-panel__tab-header-item_active {
    color: $green-color;
    border-right: 11px solid $green-color;
 }
