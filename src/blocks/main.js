@@ -1,0 +1,1 @@
+import "%blocks%/scroll-panel/scroll-panel.js";

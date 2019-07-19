@@ -1,6 +1,25 @@
 @import "header/header";
+@import "Intro/Intro";
+@import "About/About";
+@import "Gallery/Gallery";
+@import "Features/Features";
+@import "Screenshot/Screenshot";
+@import "Comments/Comments";
+@import "Newsletter/Newsletter";
 @import "footer/footer";
-@import "main/main";
+@import "btn/btn";
+@import "btn/btn_inversed";
+@import "btn/btn_submit";
+@import "title/title";
+@import "paragraph/paragraph";
+@import "block/block";
+@import "scroll-panel/scroll-panel";
+@import "scroll-panel/scroll-panel__tab-content-item";
+@import "scroll-panel/scroll-panel__tab-content";
+@import "scroll-panel/scroll-panel__tab-header-item";
+@import "scroll-panel/scroll-panel__tab-header";
+@import "container/container-g";
+@import "tab-content/tab-content";
 
 
 html {

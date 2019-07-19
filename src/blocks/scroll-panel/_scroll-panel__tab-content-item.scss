@@ -1,0 +1,9 @@
+.scroll-panel__tab-content-item {
+  display: none;
+}
+.scroll-panel__tab-content-item_active {
+  padding: 50px;
+  display: block;
+  font-size: 24px;
+  font-weight: 400;
+}
